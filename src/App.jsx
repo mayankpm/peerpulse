@@ -3,7 +3,7 @@ import Login from './Components/Login/Loginpage'
 import FLdata from "./Components/FLdata/FLdata"
 import ED from "./Components/EmployerData/ED"
 import Card from "./Components/Homepage/Card"
-
+import img from "./Assets/optimus.jpg"
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
     <>
       <Login/>
       <FLdata/>
-      <Card/>
+      <Card name="Mayank P M" title="AI/ML Expert" dp={img}/>
     </>
     
   )
