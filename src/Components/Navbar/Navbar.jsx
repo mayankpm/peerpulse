@@ -48,7 +48,7 @@ import './Navbar.css';
 
       <div className='nav-center'>
         <div className='nav-text'>
-          <div>LOGO</div>
+          <div>PEER PULSE</div>
         </div>
       </div>
       
@@ -57,7 +57,7 @@ import './Navbar.css';
             <div className='search'>SEARCH</div>
           </div>
           <div className='nav-text'>
-            <div className='collections'>COLLECTIONS</div>
+            <div className='collections'>USERS</div>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ import './Navbar.css';
 
         <div className='sidebar-section1'>
           <div className={`links ${sidebarOpen ? 'fade-in' : 'fade-out'}`} >
-            <a href="https://www.google.com">THE BRAND</a>
+            <a href="https://www.google.com">DASHBOARD</a>
             <a href="https://www.example.com">COLLECTIONS</a>
             <a href="https://www.openai.com">STORE</a>
             <a href="https://www.github.com">EVENTS</a>
