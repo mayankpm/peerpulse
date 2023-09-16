@@ -6,15 +6,7 @@ export default function App() {
       className="bg-[#101010] text-center text-neutral-600 dark:text-neutral-200 lg:text-left">
       <div
         className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
-        <div className="mr-12 flex">
-          <svg  className="mr-2 flex" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="19px" height="19px" id="Map"><path d="m24 47.759-.823-1.191C22.558 45.671 8 24.499 8 16 8 7.178 15.178 0 24 0s16 7.178 16 16c0 8.499-14.558 29.671-15.177 30.568L24 47.759zM24 2c-7.72 0-14 6.28-14 14 0 6.787 10.885 23.555 14 28.214C27.115 39.555 38 22.787 38 16c0-7.72-6.28-14-14-14z" fill="#ffffff" class="color000000 svgShape"></path><path d="M24 23c-3.859 0-7-3.14-7-7s3.141-7 7-7 7 3.14 7 7-3.141 7-7 7zm0-12c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5z" fill="#ffffff" class="color000000 svgShape"></path></svg>
-         <span className="mr-12 flex">Find the nearest store</span>
-        </div>
-        <div className="flex items-center justify-center ">
-          <div
-            className="h-12 min-h-[1em] w-px self-stretch bg-neutral-600"
-          ></div>
-        </div>
+       
         <div className="flex justify-center">
           <a className="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
@@ -75,7 +67,7 @@ export default function App() {
             <h6
               className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
               {/* we'll add off a logo svg here */}
-              Swiss Collections
+             Peer Pulse
             </h6>
             <p>
              We'll put off some random text here to make it look good
@@ -84,39 +76,23 @@ export default function App() {
           <div className="">
             <h6
               className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-              Collections
+              Popular Domains
             </h6>
             <p className="mb-4">
               <a className="text-neutral-600"
-              >Audemars Piguet</a>
+              >Big Data</a>
             </p>
             <p className="mb-4">
               <a className="text-neutral-600"
-              >TAG Heuer</a>
+              >Data Analytics</a>
             </p>
             <p className="mb-4">
               <a className="text-neutral-600"
-              >Cartier</a>
+              >Machine Intelligence</a>
             </p>
             <p className="mb-4">
               <a className="text-neutral-600"
-              >Tissot</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-600"
-              >Rado</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-600"
-              >Patek Philippe</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-600"
-              >Rolex</a>
-            </p>
-            <p>
-              <a className="text-neutral-600"
-              >Richard Millie</a>
+              >DBMS</a>
             </p>
           </div>
  
@@ -135,23 +111,7 @@ export default function App() {
             </p>
             <p className="mb-4">
               <a className="text-neutral-600"
-              >Customer Care</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-600"
-              >Shipping</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-600"
-              >Returns</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-600"
-              >Track your order</a>
-            </p>
-            <p>
-              <a className="text-neutral-600"
-              >Warranty</a>
+              >Terms of use</a>
             </p>
           </div>
 
@@ -164,21 +124,10 @@ export default function App() {
               <a className="text-neutral-600"
               >Terms & Conditions</a>
             </p>
-            <p className="mb-4">
-              <a className="text-neutral-600"
-              >Terms of use</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-600"
-              >Supply Chain Policy</a>
-            </p>
+            
             <p className="mb-4">
               <a className="text-neutral-600"
               >Privacy Policy</a>
-            </p>
-            <p className="mb-4">
-              <a className="text-neutral-600"
-              >Human Rights Policy</a>
             </p>
             <p className="mb-4">
               <a className="text-neutral-600"
@@ -223,7 +172,7 @@ export default function App() {
                 <path
                   d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
               </svg>
-              swiss@gmail.com
+              peerpulse@gmail.com
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start text-neutral-600">
               <svg
@@ -259,7 +208,7 @@ export default function App() {
         <span>© 2023 Copyright:</span>
         <a
           className="font-semibold text-neutral-600 dark:text-neutral-400"
-        >Swiss Collections</a>
+        >Peer Pulse</a>
       </div>
     </footer>
   );

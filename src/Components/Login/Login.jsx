@@ -29,7 +29,7 @@ export default function ExampleV3() {
                 {/* <!-- Form header --> */}
 
                 <div className="mb-6 text-4xl font-extrabold dark:text-white">
-                    Login
+                    Login/Signup
                 </div>
               {/* <!-- Email input --> */}
               <TEInput
